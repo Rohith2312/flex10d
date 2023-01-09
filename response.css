@@ -1,0 +1,656 @@
+/* extra large screens */
+@media (min-width:1300px) and (max-width:1500px) {
+  /* screen 1 */
+  #introLeft .introText {
+    font-size: 5rem;
+  }
+  #introRight #screen1IMG {
+    width: 37rem;
+  }
+  #service .serviceBoxs {
+    width: 38rem;
+  }
+  #about h5 {
+    font-size: 3rem;
+    line-height: 2rem;
+  }
+  #about P {
+    line-height: 2rem;
+    font-size: 1.6rem;
+  }
+  #aboutFlaxRight ,
+  #aboutFlaxLeft {
+    padding-bottom: 1.5rem;
+  }
+  #aboutFlaxRight span,
+  #aboutFlaxLeft span {
+    font-size: 1.6rem;
+    margin: -1rem 0 0 1.25rem;
+    padding: 0 2rem 1rem 0;
+  }
+  #about a {
+    padding: 1rem;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+  }
+  #floaty h2 {
+    margin: 5rem 0 0 42rem;
+    width: 53%;
+    font-size: 17rem;
+  }
+  #benefitsLeft h3 {
+    font-size: 3.5rem;
+    padding: 0 0 1.5rem 4rem;
+  }
+  #chatLeft {
+    width: 55%;
+  }
+  #chatRight {
+    width: 45%;
+    margin: 10rem 0 0 0;
+  }
+  #chatLeft h1 {
+    font-size: 3rem;
+  }
+  #chatLeft form {
+    width: 90%;
+    font-size: 2rem;
+  }
+  #chatLeft form input[type=text] {
+    font-size: 2.5rem;
+  }
+  #chatLeft a {
+    padding: 2rem 17rem;
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+
+  /* screen 3 */
+  #recents {
+    margin: -8rem 0rem 0rem 56rem;
+  }
+  #search {
+    padding: 3rem 9rem 95rem 7rem
+  }
+  .itemsID {
+    max-width: 24rem;
+    margin: 0.5rem 1.5rem;
+  }
+  #pageMark {
+    margin: -15rem 0rem 0rem 57rem;
+  }
+  #img .img2 {
+    left: 693px;
+  }
+  #img .img3 {
+    top: 77rem;
+    left: 38.3rem;
+  }
+
+  /* screen4 */
+  #formText {
+    margin: 5rem;
+  }
+  #formText #textIn {
+    margin: 0 5rem 0 0;
+  }
+  #formIn {
+    max-width: 100%;
+    width: 38rem;
+  }
+}
+
+
+
+/* large screens */
+@media (min-width:1025px) and (max-width:1200px) {
+  /* screen 1 */
+  #introLeft .introText  {
+    font-size: 3rem;
+  }
+  #introRight #screen1IMG {
+    width: 32rem;
+  }
+  #service .serviceBoxs {
+    width: 25rem;
+  }
+  #service h2 {
+    margin: -11rem 0 0 21rem;
+    font-size: 14rem;
+  }
+  #floaty h2 {
+    margin: 5rem 0 0 24rem;
+    width: 62%;
+    font-size: 15rem;
+  }
+  #worksLeft p {
+    font-size: 2rem;
+  }
+  .benefitAddons h2 {
+    font-size: 2.5rem;
+  }
+  .benefitAddons h1 {
+    font-size: 2rem;
+  }
+  #chatLeft {
+    width: 50%;
+  }
+  #chatRight {
+    width: 50%;
+    margin: 15rem 0 0 0;
+  }
+  #chatLeft h1 {
+    font-size: 3rem;
+  }
+  #chatLeft form {
+    width: 80%;
+    font-size: 1rem;
+  }
+  #chatLeft form input[type=text] {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* small laptops */
+@media (min-width:769px) and (max-width:1024px)  {
+  /* screen 1 */
+  #introLeft .introText {
+    font-size: 3rem;
+  }
+  #introRight #screen1IMG {
+    width: 29rem;
+  }
+  #service .serviceBoxs {
+    width: 25rem;
+  }
+  #service h2 {
+    margin: -9rem 0 0 21rem;
+    font-size: 14rem;
+  }
+  #floaty h2 {
+    margin: 7rem 0 0 24rem;
+    width: 62%;
+    font-size: 16rem;
+  }
+  .benefitAddons h2 {
+    font-size: 2rem;
+  }
+  .benefitAddons h1 {
+    font-size: 1.5rem;
+  }
+  #chatRight {
+    width: 50%;
+    margin: 7rem 0 0 0;
+  }
+
+  /* scfreen2 */
+  #footer {
+    top: -7rem;
+    left: 11rem;
+    text-align: center;
+  }
+
+  /* screen 3 */
+  #recents {
+    margin: -8rem 0rem 0rem 43rem;
+  }
+  #img .img1 {
+    top: -195px;
+    left: 70px;
+  }
+  #img .img2 {
+    top: -299px;
+    left: 515px;
+  }
+  #searchBar {
+    height: 120rem;
+  }
+  #search {
+    padding: 3rem 2rem 105rem 2rem;
+    margin: -21rem 0rem 0rem 9rem;
+  }
+  .itemsID {
+    max-width: 18rem;
+    height: 30rem;
+  }
+  #pageMark {
+    margin: -23rem 0rem 0rem 42rem;
+  }
+
+  /* screen 4 */
+  #formText {
+    margin: 5rem 1rem;
+  }
+  #formIn {
+    max-width: 100%;
+    width: 37rem;
+  }
+}
+
+
+/* tablet */
+@media (min-width:481px) and (max-width:768px) {
+  /* navbar */
+  #navLogo {
+    width: min(100%, 9rem);
+  }
+  #navContent a {
+    font-size: 0.85rem;
+    margin-left: 1rem;
+  }
+   /* screen 1 */
+   #introLeft .introText {
+    font-size: 2rem;
+  }
+  #introRight #screen1IMG {
+    width: 21rem;
+  }
+  .blue h1 {
+    padding: 0 0.5rem 0 0.75rem;
+    font-size: 1.5rem;
+  }
+  .blue p {
+    font-size: 0.5rem;
+  }
+  .white {
+    padding: 0.75rem 1rem 0 0;
+  }
+  .white p {
+    font-size: 0.9rem; 
+  }
+  #service .serviceBoxs {
+    width: 17rem;
+  }
+  #service h2 {
+    margin: -6rem 0 0 14rem;
+    font-size: 9rem;
+  }
+  #about h5 {
+    font-size: 1.7rem;
+    line-height: 2rem;
+  }
+  #about P {
+    line-height: 1rem;
+    font-size: 0.8rem;
+  }
+  #aboutFlaxRight ,
+  #aboutFlaxLeft {
+    padding-bottom: 1rem;
+  }
+  #aboutFlaxRight span,
+  #aboutFlaxLeft span {
+    font-size: 0.8rem;
+    margin: -1rem 0 0 1.25rem;
+    padding: 0 2rem 0.5rem 0;
+  }
+  #worksLeft p {
+    font-size: 1.5rem;
+  }
+  #floaty h2 {
+    margin: 6rem 0 0 20rem;
+    width: 57%;
+    font-size: 11rem;
+  }
+  .benefitAddons h2 {
+    font-size: 1.5rem;
+  }
+  .benefitAddons h1 {
+    font-size: 1rem;
+  }
+  .benefitAddons img {
+    max-width: 3rem;
+    height: 3rem;
+  }
+  #chatLeft {
+    width: 50%;
+  }
+  #chatRight {
+    width: 50%;
+    margin: 10rem 0 0 0;
+  }
+  #chatLeft h1 {
+    font-size: 2rem;
+  }
+  #chatLeft form {
+    width: 70%;
+    font-size: 0.9rem;
+  }
+  #chatLeft form input[type=text] {
+    font-size: 1rem;
+  }
+  #chatLeft a {
+    padding: 1rem 8rem;
+  }
+
+
+
+  /* screen2 */
+  .lightBG h4, .blueBG h4{
+    font-size: 0.8rem;
+  } 
+  .lightBG h1, .blueBG h1{
+    font-size: 1.8rem;
+  } 
+  .lightBG .headS h1,
+  .blueBG .headIS h1 {
+    font-size: 2rem;
+  }
+  .lightBG a,
+  .blueBG a {
+    padding: 1rem 2rem;
+    margin: 0 0 0 1rem;
+  }
+  .lightBG .headS p {
+    font-size: 0.7rem;
+  }
+  #footer {
+    left: 7rem;
+    text-align: center;
+  }
+  .lightBlueBG p {
+    padding: 1.2rem 0 0rem 4rem;
+  }
+  
+  /* screen 3 */
+  #contentFlex {
+    margin: 2rem 1rem;
+  }
+  .itemsID {
+    max-width: 21rem;
+    height: 26rem;
+  }
+  #searchBar {
+    height: 143rem;
+  }
+  #search {
+    padding: 3rem 5rem 131rem 3rem;
+  }
+  #pageMark {
+    margin: -12rem 0rem 0rem 25rem;
+  }
+  #img .img3 {
+    top: 105rem;
+    left: 31.3rem;
+  }
+  #recents {
+    margin: -27rem 0rem 0rem 18rem;
+  }
+
+  /* screen 4 */
+
+  #headingSText {
+    top: 2rem;
+  }
+  #headingSText h1 {
+    font-size: 2rem;
+  }
+  #formText {
+    margin: 5rem 1rem;
+  }
+  #formText #textIn h1 {
+    font-size: 2rem;
+    line-height: 30px;
+  }
+  #formIn {
+    height: 75rem;
+    padding: 4rem 2rem 5rem 2rem;
+  }
+  .flexit,
+  .flexit1 {
+    flex-direction: column;
+  }
+  #formIn input {
+    width: 19rem;
+  }
+  #formIn a {
+    padding: 0.5rem 3rem;
+  }
+  #formIn input[type=submit] {
+    margin: 1rem 0;
+  }
+}
+
+
+/* mobile phones */
+@media (min-width:320px) and (max-width:480px) {
+  /* navbar */
+  #navBar {
+    flex-direction: column;
+    padding: 0;
+  }
+  #navContent a {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.7rem;
+  }
+  #content {
+    flex-direction: column;
+  }
+  #introLeft {
+    max-width: 100%;
+    margin: 2rem;
+  }
+  #introLeft .introText {
+    font-size: 2rem;
+    padding: 0;
+  }
+  .flex {
+    margin: 1rem 0rem;
+  }
+  .blue h1 {
+    padding: 0.3rem 0.5rem 0 0.75rem;
+    font-size: 1rem;
+  }
+  .blue p {
+    font-size: 0.5rem;
+  }
+  .white {
+    padding: 0.75rem 1rem 0 0;
+  }
+  .white p {
+    font-size: 0.9rem; 
+  }
+  #introRight {
+    max-width: 100%;
+  }
+  #introRight #screen1IMG {
+    width: 19.9rem;
+  }
+  #service {
+    margin: 0 1rem;
+  }
+  #service .serviceBoxs {
+    width: 16.7rem;
+    padding: 1rem;
+  }
+  #service h2 {
+    font-size: 6rem;
+    margin: -3rem 0 0 0rem;
+  }
+  #aboutUs {
+    flex-direction: column;
+    margin: 0;
+  }
+  #aboutUs #imga  {
+    width: 100%;
+  }
+  #about {
+    width: 90%;
+    margin-left: 1rem;
+    text-align: center;
+  }
+  #about p {
+    padding: 1rem 0;
+  }
+  #floaty h2 {
+    margin: 15rem 0 0 2rem;
+    width: 78%;
+    font-size: 6rem;
+  }
+  #worksLeft {
+    margin: 0 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  #worksLeft p {
+    max-width: 100%;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  #worksRight .seperate img {
+    width: 21.5rem;
+  }
+  #worksRight .seperate h5,
+  #worksRight .seperate h4,
+  #worksRight .seperate a {
+    margin: 0 1.5rem;
+  }
+  #benefits {
+      flex-direction: column;
+  }
+  #benefitsLeft {
+    width: 95%;
+  }
+  #benefitsLeft p, #benefitsLeft h3 {
+    padding: 0 2rem;
+  }
+  #benefitsRight {
+    max-width: 90%;
+    margin: 3rem 2rem;
+  }
+  .benefitAddons h2 {
+    font-size: 1.5rem;
+    padding-right: 1rem;
+  }
+  .benefitAddons h1 {
+    font-size: 1rem;
+  }
+  .benefitAddons img {
+    max-width: 3rem;
+    height: 3rem;
+    margin-left: 0;
+  }
+  .benefitAddons .extra {
+    margin-left: 0.8rem;
+  }
+  #chat {
+    flex-direction: column;
+  }
+  #chatLeft {
+    width: 90%;
+    margin: 2rem;
+  }
+  #chatLeft h1 {
+    font-size: 2rem;
+  }
+  #chatLeft form {
+    width: 80%;
+    font-size: 0.9rem;
+  }
+  #chatLeft form input[type=text] {
+    font-size: 1rem;
+  }
+  #chatLeft a {
+    padding: 1rem 6rem;
+  }
+  #chatRight {
+    display: none;
+  }
+
+
+  /* screen 2 */
+  #fullScreen2 {
+    height: 132rem;
+  }
+  #heading2 {
+    padding: 2rem 2rem 23rem 2rem;
+  }
+  #aligned {
+    flex-direction: column;
+    top: 17rem;
+  }
+  .container {
+    margin: 1rem 2rem;
+    box-shadow: 1px 1px 3px #000;
+  }
+  #footer {
+    top: 48rem;
+    left: 3rem;
+    text-align: center;
+  }
+
+  /* screen 3 */
+  #subHeader {
+    padding: 3rem 0 0 0 ;
+  }
+  #subHeader h1 {
+    font-size: 3rem;  
+  }
+  #subHeader p {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 0.7rem 0;
+  }
+  #recents {
+    margin: -28rem 0rem 0rem 2rem
+  }
+  #searchBar {
+    height: 282rem;
+  }
+  #search {
+    max-width: 18rem;
+    margin: -22rem 0rem 0rem 1rem;
+    padding: 3rem 1rem 282rem 1rem;
+  }
+  #search h1 {
+    font-size: 2rem;
+  }
+  #search input {
+    width: 16rem;
+  }
+  #contentFlex {
+    margin: 2rem 1rem;
+  }
+  .itemsID {
+    min-height: 30rem;
+  }
+  #pageMark {
+    margin: -3rem 0rem 0rem 2rem;
+  }
+
+  /* screen 4 */
+  #headingSText {
+    top: 1rem;
+  }
+  #headingSText h1 {
+    font-size: 2rem;
+    word-spacing: 1rem;
+  }
+  #formText  {
+    flex-direction: column;
+    margin: 2rem 1rem;
+  }
+  #formText #textIn {
+    max-width: 100%;
+    text-align: center;
+  }
+  #formIn {
+    max-width: 100%;
+    height: 74rem;
+    padding: 2rem 1rem;
+    margin: 2rem 0.1rem;
+    text-align: center;
+  }
+  .flexit,
+  .flexit1 {
+    flex-direction: column;
+  }
+  #formIn a {
+    padding: 0.5rem 1rem;
+  }
+  #formIn input[type=submit]  {
+    margin: 1rem 0;
+  }
+}
